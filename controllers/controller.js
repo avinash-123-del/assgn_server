@@ -67,7 +67,6 @@ const getAllCustomerData = async (req, res) => {
 // get one customer
 const getoneCustomer = async (req, res) => {
     const { id } = req.params;
-
     try {
         const customerData = await userSchema.findById(id);
         if (!customerData) {
