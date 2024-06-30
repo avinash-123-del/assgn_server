@@ -85,6 +85,6 @@ const schema = new mongoose.Schema({
 })
 
 
-const userSchema = mongoose.model('userSchema', schema);    
+const policySchema = mongoose.model('policy', schema);
 
-export default userSchema
+export default policySchema
